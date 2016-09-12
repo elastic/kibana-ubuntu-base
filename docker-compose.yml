@@ -1,0 +1,7 @@
+---
+version: '2'
+services:
+  kibana-ubuntu-base:
+    build:
+      context: ./build
+    image: ${IMAGE}
