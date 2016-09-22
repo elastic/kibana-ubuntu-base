@@ -1,4 +1,4 @@
-REGISTRY=container-registry.elastic.co
+REGISTRY=docker.elastic.co
 IMAGE=kibana-ubuntu-base
 IMAGE_TAG=$(REGISTRY)/kibana/$(IMAGE):latest
 
